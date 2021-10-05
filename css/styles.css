@@ -9,7 +9,7 @@ table {
 
 .content-body {
     background-color: white;
-    height: 70%;
+    height: 60%;
     width: 80%;
     position:absolute;
     top: 50%;
@@ -18,15 +18,24 @@ table {
 }
 
 .text-field {
-    /* background-color: rgb(27, 25, 56); */
+    color: white;
+    background-size: cover;
 }
 
 .image-field {
-   
+    
 }
 
-.layer {
-    background-color: rgba(170, 92, 219, 0.5);
+.upper-layer {
+    height: 100%;
+    width: 100%;
+    background-color:	rgba(101, 4, 161, 0.5);
+    background-size: cover;
+}
+
+.lower-layer {
+    background-image: url(image-header-desktop.jpg);
+    background-size: cover;
     top: 0;
     left: 0;
     width: 100%;
@@ -35,4 +44,7 @@ table {
 
 .attribution {
     background-color: white;
+    position: absolute;
+    bottom: 3%;
+    left: 40%;
 }
